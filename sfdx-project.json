@@ -13,7 +13,10 @@
         },
         {
             "path": "empApp",
-            "default": false
+            "default": false,
+            "package": "empTest",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "name": "cohortFall22",
@@ -22,6 +25,7 @@
     "sourceApiVersion": "55.0",
     "packageAliases": {
         "baseTest": "0HoDn000000GmnaKAC",
-        "baseTest@0.1.0-1-feature/US-0000019": "04tDn000000xnSXIAY"
+        "baseTest@0.1.0-1-feature/US-0000019": "04tDn000000xnSXIAY",
+        "empTest": "0HoDn000000GmnfKAC"
     }
 }
