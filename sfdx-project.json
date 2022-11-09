@@ -2,7 +2,10 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true
+            "default": true,
+            "package": "Abhi Test Package - 2",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         },
         {
             "path": "abhi-test-package",
@@ -18,6 +21,7 @@
     "sourceApiVersion": "55.0",
     "packageAliases": {
         "Abhi Test Package": "0HoDn000000GmnLKAS",
-        "Abhi Test Package@0.1.0-1": "04tDn000000xnSDIAY"
+        "Abhi Test Package@0.1.0-1": "04tDn000000xnSDIAY",
+        "Abhi Test Package - 2": "0HoDn000000GmnQKAS"
     }
 }
