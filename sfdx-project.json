@@ -1,23 +1,15 @@
 {
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true
-        },
-        {
-            "path": "abhi-test-package",
-            "package": "Abhi Test Package",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false
-        }
-    ],
-    "name": "cohortFall22",
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "55.0",
-    "packageAliases": {
-        "Abhi Test Package": "0HoDn000000GmnLKAS",
-        "Abhi Test Package@0.1.0-1": "04tDn000000xnSDIAY"
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": "base",
+      "default": false
+    },
+    {
+      "path": "empApp",
+      "default": false
     }
 }
