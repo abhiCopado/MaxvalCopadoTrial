@@ -6,10 +6,31 @@
     },
     {
       "path": "base",
-      "default": false
+      "default": false,
+      "package": "baseTest",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT"
     },
     {
       "path": "empApp",
-      "default": false
+      "default": false,
+      "package": "empTest",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "dependencies": [
+        {
+          "package": "baseTest@0.1.0-1-feature/US-0000019"
+        }
+      ]
     }
+  ],
+  "name": "cohortFall22",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "baseTest": "0HoDn000000GmnaKAC",
+    "baseTest@0.1.0-1-feature/US-0000019": "04tDn000000xnSXIAY",
+    "empTest": "0HoDn000000GmnfKAC"
+  }
 }
