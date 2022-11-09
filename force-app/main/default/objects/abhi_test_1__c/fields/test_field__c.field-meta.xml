@@ -3,7 +3,7 @@
     <fullName>test_field__c</fullName>
     <externalId>false</externalId>
     <label>test-field</label>
-    <length>5</length>
+    <length>10</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
