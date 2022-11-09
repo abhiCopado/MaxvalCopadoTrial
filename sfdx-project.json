@@ -1,31 +1,36 @@
 {
-    "packageDirectories": [
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": "base",
+      "default": false,
+      "package": "baseTest",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT"
+    },
+    {
+      "path": "empApp",
+      "default": false,
+      "package": "empTest",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "dependencies": [
         {
-            "path": "force-app",
-            "default": true
-        },
-        {
-            "path": "base",
-            "default": false,
-            "package": "baseTest",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        },
-        {
-            "path": "empApp",
-            "default": false,
-            "package": "empTest",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+          "package": "baseTest@0.1.0-1-feature/US-0000019"
         }
-    ],
-    "name": "cohortFall22",
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "55.0",
-    "packageAliases": {
-        "baseTest": "0HoDn000000GmnaKAC",
-        "baseTest@0.1.0-1-feature/US-0000019": "04tDn000000xnSXIAY",
-        "empTest": "0HoDn000000GmnfKAC"
+      ]
     }
+  ],
+  "name": "cohortFall22",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "baseTest": "0HoDn000000GmnaKAC",
+    "baseTest@0.1.0-1-feature/US-0000019": "04tDn000000xnSXIAY",
+    "empTest": "0HoDn000000GmnfKAC"
+  }
 }
