@@ -21,6 +21,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "55.0",
     "packageAliases": {
-        "Base": "0HoDn000000Gmw5KAC"
+        "Base": "0HoDn000000Gmw5KAC",
+        "Base@0.1.0-1-feature/US-0000020": "04tDn000000xt7tIAA"
     }
 }
