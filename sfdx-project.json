@@ -18,10 +18,10 @@
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "dependencies": [
-              {
-                  "package": "Base@0.1.0-1-feature/US-0000020"
-              }
-          ]
+                {
+                    "package": "Base@0.1.0-1-feature/US-0000020"
+                }
+            ]
         }
     ],
     "name": "cohortFall22",
@@ -31,6 +31,7 @@
     "packageAliases": {
         "Base": "0HoDn000000Gmw5KAC",
         "Base@0.1.0-1-feature/US-0000020": "04tDn000000xt7tIAA",
-        "employee": "0HoDn000000GmwAKAS"
+        "employee": "0HoDn000000GmwAKAS",
+        "employee@0.1.0-1-feature/US-0000020": "04tDn000000xt7yIAA"
     }
 }
