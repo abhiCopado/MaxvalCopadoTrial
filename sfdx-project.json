@@ -6,22 +6,11 @@
     },
     {
       "path": "base",
-      "default": false,
-      "package": "baseTest",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT"
+      "default": false
     },
     {
-      "path": "empApp",
-      "default": false,
-      "package": "empTest",
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "dependencies": [
-        {
-          "package": "baseTest@0.1.0-1-feature/US-0000019"
-        }
-      ]
+      "path": "employee",
+      "default": false
     }
   ],
   "name": "cohortFall22",
